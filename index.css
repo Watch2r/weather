@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e6f7ff; /* Светло-голубой фон */
+}
+
+#app {
+    text-align: center;
+}
+
+.weather-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#temperature {
+    font-size: 36px;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+#description {
+    color: #555;
+}
+
+#weather-icon {
+    margin-top: 20px;
+}
+
+/* Стили для адаптивности */
+@media screen and (max-width: 768px) {
+    .weather-container {
+        width: 90%;
+    }
+}
